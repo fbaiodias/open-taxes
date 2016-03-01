@@ -1,0 +1,29 @@
+{
+  "name": "open-taxes",
+  "version": "0.0.1",
+  "description": "Open taxes of the world",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard --verbose | snazzy"
+  },
+  "pre-commit": ["lint"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xicombd/open-taxes.git"
+  },
+  "keywords": [
+    "open-taxes",
+    "taxes"
+  ],
+  "author": "Francisco Dias <francisco@baiodias.com> (http://franciscodias.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xicombd/open-taxes/issues"
+  },
+  "homepage": "https://github.com/xicombd/open-taxes#readme",
+  "devDependencies": {
+    "pre-commit": "^1.1.2",
+    "snazzy": "^3.0.0",
+    "standard": "^6.0.7"
+  }
+}
